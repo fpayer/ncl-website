@@ -3,8 +3,6 @@
 }
 
 var updateBehavior = async function() {
-  console.log('updated behavior');
-
   await timeout(100);
 
   /* Allow external hyperlinks with gallery views */
